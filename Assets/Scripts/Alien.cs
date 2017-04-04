@@ -4,6 +4,9 @@ using UnityEngine.AI;
 public class Alien : MonoBehaviour
 {
     public Transform Target;
+    public float NavigationUpdate;
+
+    private float _navagationTime;
     private NavMeshAgent _agent;
 
     public void Start()
@@ -13,7 +16,21 @@ public class Alien : MonoBehaviour
 
     public void Update()
     {
-        if (Target != null)
-            _agent.destination = Target.position;
+        _navagationTime += Time.deltaTime;
+        if (_navagationTime > NavigationUpdate)
+        {
+            UpdateDestinationToTarget();
+            _navagationTime = 0.0f;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+    }
+
+    private void UpdateDestinationToTarget()
+    {
+        _agent.destination = Target.position;
     }
 }
