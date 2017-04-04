@@ -1,0 +1,16 @@
+C:\Users\rick\Documents\New Unity Project\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\rick\Documents\New Unity Project\Test\bin\Debug\Test.dll
+C:\Users\rick\Documents\New Unity Project\Test\bin\Debug\Test.pdb
+C:\Users\rick\Documents\New Unity Project\Test\bin\Debug\Assembly-CSharp.dll
+C:\Users\rick\Documents\New Unity Project\Test\bin\Debug\nunit.framework.dll
+C:\Users\rick\Documents\New Unity Project\Test\bin\Debug\UnityEngine.dll
+C:\Users\rick\Documents\New Unity Project\Test\bin\Debug\System.Threading.dll
+C:\Users\rick\Documents\New Unity Project\Test\bin\Debug\AsyncBridge.Net35.dll
+C:\Users\rick\Documents\New Unity Project\Test\bin\Debug\Assembly-CSharp.pdb
+C:\Users\rick\Documents\New Unity Project\Test\bin\Debug\nunit.framework.xml
+C:\Users\rick\Documents\New Unity Project\Test\bin\Debug\UnityEngine.xml
+C:\Users\rick\Documents\New Unity Project\Test\bin\Debug\System.Threading.xml
+C:\Users\rick\Documents\New Unity Project\Test\bin\Debug\AsyncBridge.Net35.xml
+C:\Users\rick\Documents\New Unity Project\Test\obj\Debug\Test.dll
+C:\Users\rick\Documents\New Unity Project\Test\obj\Debug\Test.pdb
+C:\Users\rick\Documents\New Unity Project\Test\bin\Debug\Test.dll.config

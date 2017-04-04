@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     private CharacterController _characterController;
 
+
     public void Start()
     {
         _characterController = GetComponent<CharacterController>();
