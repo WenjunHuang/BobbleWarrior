@@ -259,7 +259,363 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Walk
+      takeName: Armature|Walk
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Elbow.L
+        weight: 1
+      - path: Armature/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Elbow.R
+        weight: 1
+      - path: Armature/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Foot IK.L
+        weight: 1
+      - path: Armature/Foot IK.L/Foot.L
+        weight: 1
+      - path: Armature/Foot IK.L/Foot.L/Foot
+        weight: 1
+      - path: Armature/Foot IK.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Foot IK.R
+        weight: 1
+      - path: Armature/Foot IK.R/Foot.R
+        weight: 1
+      - path: Armature/Foot IK.R/Foot.R/Foot.001
+        weight: 1
+      - path: Armature/Foot IK.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Armature/Hand IK.L
+        weight: 1
+      - path: Armature/Hand IK.L/Hand IK.L_end
+        weight: 1
+      - path: Armature/Hand IK.R
+        weight: 1
+      - path: Armature/Hand IK.R/Hand IK.R_end
+        weight: 1
+      - path: Armature/Knee.L
+        weight: 1
+      - path: Armature/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Knee.R
+        weight: 1
+      - path: Armature/Knee.R/Knee.R_end
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Hips
+        weight: 1
+      - path: Armature/Master Control/Hips/Hips 1
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.L
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.L/Calf.L
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.L/Calf.L/Calf
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.L/Calf.L/Calf/Kneepad
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.L/Calf.L/Calf.L_end
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.L/Thigh.L 1
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.R
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.R/Calf.R
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.R/Calf.R/Calf.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.R/Calf.R/Calf.001/Kneepad.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.R/Calf.R/Calf.R_end
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.R/Thigh.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Abdomen/Backpack
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Abdomen/Chest
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Abdomen/Neck Post
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Abdomen/Neck Post/Spring Attachment
+          Point
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Forearm.L/Forearm
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Forearm.L/Hand.L/Hand.L
+          1
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Upper Arm
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Upper Arm/Shoulder
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Forearm.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/Cube.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/Cube.002
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/Cube.003
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/Cube.004
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/cutter 1
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/Cylinder.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/Gun end
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Upper Arm.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Upper Arm.001/Shoulder.001
+        weight: 1
+      - path: World Centre
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Elbow.L
+        weight: 1
+      - path: Armature/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Elbow.R
+        weight: 1
+      - path: Armature/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Foot IK.L
+        weight: 1
+      - path: Armature/Foot IK.L/Foot.L
+        weight: 1
+      - path: Armature/Foot IK.L/Foot.L/Foot
+        weight: 1
+      - path: Armature/Foot IK.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Foot IK.R
+        weight: 1
+      - path: Armature/Foot IK.R/Foot.R
+        weight: 1
+      - path: Armature/Foot IK.R/Foot.R/Foot.001
+        weight: 1
+      - path: Armature/Foot IK.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Armature/Hand IK.L
+        weight: 1
+      - path: Armature/Hand IK.L/Hand IK.L_end
+        weight: 1
+      - path: Armature/Hand IK.R
+        weight: 1
+      - path: Armature/Hand IK.R/Hand IK.R_end
+        weight: 1
+      - path: Armature/Knee.L
+        weight: 1
+      - path: Armature/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Knee.R
+        weight: 1
+      - path: Armature/Knee.R/Knee.R_end
+        weight: 1
+      - path: Armature/Master Control
+        weight: 1
+      - path: Armature/Master Control/Hips
+        weight: 1
+      - path: Armature/Master Control/Hips/Hips 1
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.L
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.L/Calf.L
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.L/Calf.L/Calf
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.L/Calf.L/Calf/Kneepad
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.L/Calf.L/Calf.L_end
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.L/Thigh.L 1
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.R
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.R/Calf.R
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.R/Calf.R/Calf.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.R/Calf.R/Calf.001/Kneepad.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.R/Calf.R/Calf.R_end
+        weight: 1
+      - path: Armature/Master Control/Hips/Thigh.R/Thigh.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Abdomen
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Abdomen/Backpack
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Abdomen/Chest
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Abdomen/Neck Post
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Abdomen/Neck Post/Spring Attachment
+          Point
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Forearm.L
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Forearm.L/Forearm
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Forearm.L/Hand.L/Hand.L
+          1
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Upper Arm
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.L/Upper Arm/Shoulder
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Forearm.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/Cube.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/Cube.002
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/Cube.003
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/Cube.004
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/cutter 1
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/Cylinder.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R
+          1/Gun.001/Gun/Gun end
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Upper Arm.001
+        weight: 1
+      - path: Armature/Master Control/Hips/Torso/Shoulder.R/Upper Arm.001/Shoulder.001
+        weight: 1
+      - path: World Centre
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

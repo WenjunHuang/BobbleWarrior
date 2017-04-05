@@ -116,9 +116,11 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -129,7 +131,203 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master_Control
+        weight: 1
+      - path: Armature/Master_Control/Back_Claw_IK_L
+        weight: 1
+      - path: Armature/Master_Control/Back_Claw_IK_L/Back_Claw_L_0
+        weight: 1
+      - path: Armature/Master_Control/Back_Claw_IK_R
+        weight: 1
+      - path: Armature/Master_Control/Back_Claw_IK_R/Back_Claw_R_0
+        weight: 1
+      - path: Armature/Master_Control/Bone
+        weight: 1
+      - path: Armature/Master_Control/Bone/Back_Leg_1_R
+        weight: 1
+      - path: Armature/Master_Control/Bone/Back_Leg_1_R/Back_Leg_2_R
+        weight: 1
+      - path: Armature/Master_Control/Bone/Front_Leg_1_L
+        weight: 1
+      - path: Armature/Master_Control/Bone/Front_Leg_1_L/Front_Leg_2_L
+        weight: 1
+      - path: Armature/Master_Control/Bone/Front_Leg_1_L_001
+        weight: 1
+      - path: Armature/Master_Control/Bone/Front_Leg_1_L_001/Front_Leg_2_L_001
+        weight: 1
+      - path: Armature/Master_Control/Bone/Front_Leg_1_R
+        weight: 1
+      - path: Armature/Master_Control/Bone/Front_Leg_1_R/Front_Leg_2_R
+        weight: 1
+      - path: Armature/Master_Control/Front_Claw_IK_L
+        weight: 1
+      - path: Armature/Master_Control/Front_Claw_IK_L/Front_Claw_L_0
+        weight: 1
+      - path: Armature/Master_Control/Front_Claw_IK_R
+        weight: 1
+      - path: Armature/Master_Control/Front_Claw_IK_R/Front_Claw_R_0
+        weight: 1
+      - path: Back_Claw_L
+        weight: 1
+      - path: Back_Claw_R
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Body/Spring_Attachment_Point
+        weight: 1
+      - path: Front_Claw_L
+        weight: 1
+      - path: Front_Claw_R
+        weight: 1
+      - path: Leg
+        weight: 1
+      - path: Leg_001
+        weight: 1
+      - path: Leg_002
+        weight: 1
+      - path: Leg_003
+        weight: 1
+      - path: Leg_004
+        weight: 1
+      - path: Leg_005
+        weight: 1
+      - path: Leg_006
+        weight: 1
+      - path: Leg_007
+        weight: 1
+      - path: World_Centre
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkCycle
+      takeName: WalkCycle
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master_Control
+        weight: 1
+      - path: Armature/Master_Control/Back_Claw_IK_L
+        weight: 1
+      - path: Armature/Master_Control/Back_Claw_IK_L/Back_Claw_L_0
+        weight: 1
+      - path: Armature/Master_Control/Back_Claw_IK_R
+        weight: 1
+      - path: Armature/Master_Control/Back_Claw_IK_R/Back_Claw_R_0
+        weight: 1
+      - path: Armature/Master_Control/Bone
+        weight: 1
+      - path: Armature/Master_Control/Bone/Back_Leg_1_R
+        weight: 1
+      - path: Armature/Master_Control/Bone/Back_Leg_1_R/Back_Leg_2_R
+        weight: 1
+      - path: Armature/Master_Control/Bone/Front_Leg_1_L
+        weight: 1
+      - path: Armature/Master_Control/Bone/Front_Leg_1_L/Front_Leg_2_L
+        weight: 1
+      - path: Armature/Master_Control/Bone/Front_Leg_1_L_001
+        weight: 1
+      - path: Armature/Master_Control/Bone/Front_Leg_1_L_001/Front_Leg_2_L_001
+        weight: 1
+      - path: Armature/Master_Control/Bone/Front_Leg_1_R
+        weight: 1
+      - path: Armature/Master_Control/Bone/Front_Leg_1_R/Front_Leg_2_R
+        weight: 1
+      - path: Armature/Master_Control/Front_Claw_IK_L
+        weight: 1
+      - path: Armature/Master_Control/Front_Claw_IK_L/Front_Claw_L_0
+        weight: 1
+      - path: Armature/Master_Control/Front_Claw_IK_R
+        weight: 1
+      - path: Armature/Master_Control/Front_Claw_IK_R/Front_Claw_R_0
+        weight: 1
+      - path: Back_Claw_L
+        weight: 1
+      - path: Back_Claw_R
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Body/Spring_Attachment_Point
+        weight: 1
+      - path: Front_Claw_L
+        weight: 1
+      - path: Front_Claw_R
+        weight: 1
+      - path: Leg
+        weight: 1
+      - path: Leg_001
+        weight: 1
+      - path: Leg_002
+        weight: 1
+      - path: Leg_003
+        weight: 1
+      - path: Leg_004
+        weight: 1
+      - path: Leg_005
+        weight: 1
+      - path: Leg_006
+        weight: 1
+      - path: Leg_007
+        weight: 1
+      - path: World_Centre
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -155,6 +353,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -165,7 +364,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1
