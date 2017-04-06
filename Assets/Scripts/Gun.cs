@@ -1,16 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 public class Gun : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform launchPosition;
 
+    private AudioSource _audioSource;
+
 	// Use this for initialization
-    private void Start () {
-		
-	}
+    private void Start ()
+    {
+        _audioSource = GetComponent<AudioSource>();
+
+        Assert.IsNotNull(_audioSource);
+    }
 	
 	// Update is called once per frame
     private void Update () {
@@ -30,8 +36,20 @@ public class Gun : MonoBehaviour
 
     private void FireBullet()
     {
+        CreateBullet();
+        PlayGunShotSound();
+    }
+
+    private GameObject CreateBullet()
+    {
         var bullet = Instantiate(bulletPrefab);
         bullet.transform.position = launchPosition.position;
         bullet.GetComponent<Rigidbody>().velocity = transform.parent.forward * 100;
+        return bullet;
+    }
+
+    private void PlayGunShotSound()
+    {
+        _audioSource.PlayOneShot(SoundManager.Instance.GunFire);
     }
 }
