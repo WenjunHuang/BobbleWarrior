@@ -11,7 +11,7 @@ public class Gun : MonoBehaviour
     private AudioSource _audioSource;
 
 	// Use this for initialization
-    private void Start ()
+    public void Start ()
     {
         _audioSource = GetComponent<AudioSource>();
 
@@ -19,7 +19,7 @@ public class Gun : MonoBehaviour
     }
 	
 	// Update is called once per frame
-    private void Update () {
+    public void Update () {
 	    if (Input.GetMouseButtonDown(0))
 	    {
 	        if (!IsInvoking(nameof(FireBullet)))
@@ -34,13 +34,13 @@ public class Gun : MonoBehaviour
 	    }
 	}
 
-    private void FireBullet()
+    protected void FireBullet()
     {
         CreateBullet();
         PlayGunShotSound();
     }
 
-    private GameObject CreateBullet()
+    protected GameObject CreateBullet()
     {
         var bullet = Instantiate(bulletPrefab);
         bullet.transform.position = launchPosition.position;
