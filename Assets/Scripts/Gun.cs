@@ -7,8 +7,13 @@ public class Gun : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform launchPosition;
+    public bool isUpgraded;
+    public float upgradeTime = 10.0f;
+
+    private float _currentTime;
 
     private AudioSource _audioSource;
+
 
 	// Use this for initialization
     public void Start ()
