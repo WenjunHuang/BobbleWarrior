@@ -6,6 +6,9 @@ public class GameManager : MonoBehaviour
     public GameObject player;
     public GameObject[] spawnPoints;
     public GameObject alien;
+    public GameObject upgradePrefab;
+    public Gun gun;
+    public float upgradeMaxTimeSpawn = 7.5f;
     public int MaxAlienCount;
     public float minSpawnTime;
     public float maxSpawnTime;
@@ -14,14 +17,38 @@ public class GameManager : MonoBehaviour
     private int _alienCount;
     private float _generatedSpawnTime;
     private float _currentSpawnTime;
+    private bool _spawnedUpgrade = false;
+    private float _actualUpgradeTime = 0;
+    private float _currentUpgradeTime = 0;
 
     public void Start()
     {
         AdjustAliensPerSpawn();
+
+        _actualUpgradeTime = Random.Range(upgradeMaxTimeSpawn - 3.0f,
+            upgradeMaxTimeSpawn);
+        _actualUpgradeTime = Mathf.Abs(_actualUpgradeTime);
+
     }
 
     public void Update()
     {
+        _currentUpgradeTime += Time.deltaTime;
+        if (_currentUpgradeTime > _actualUpgradeTime)
+        {
+            if (!_spawnedUpgrade)
+            {
+                var r = Random.Range(0, spawnPoints.Length - 1);
+                var spawnLocation = spawnPoints[r];
+                var upgrade = Instantiate(upgradePrefab);
+                var upgradeScript = upgrade.GetComponent<Upgrade>();
+                upgradeScript.gun = gun;
+                upgrade.transform.position = spawnLocation.transform.position;
+
+                _spawnedUpgrade = true;
+                SoundManager.Instance.PlayOneShot(SoundManager.Instance.PowerUpAppear);
+            }
+        }
         AdjustSpawnTime();
         SpawnAliens();
     }
@@ -42,7 +69,6 @@ public class GameManager : MonoBehaviour
                     player.transform.position.z));
                 var alienScript = newAlien.GetComponent<Alien>();
                 alienScript.Target = player.transform;
-
             }
         }
     }
