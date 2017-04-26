@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Assertions;
 
 public class Gun : MonoBehaviour
@@ -36,6 +34,12 @@ public class Gun : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             CancelInvoke(nameof(FireBullet));
+        }
+
+        _currentTime += Time.deltaTime;
+        if (_currentTime > upgradeTime && isUpgraded)
+        {
+            isUpgraded = false;
         }
     }
 

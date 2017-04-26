@@ -1,5 +1,5 @@
 ********************************************************************************
-*                      Monday, April 17, 2017 9:40:32 PM                       *
+*                    Wednesday, April 26, 2017 10:53:59 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 2.0.3.30
 Platform: Windows
@@ -12,40 +12,9 @@ Compiler: Microsoft C# 7.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-21a5eb384d4aff047a557bef686b13dc 
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-d049c5fff3acf084dba981b603b4607b 
 Exit code: 0
-Elapsed time: 2.45 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Scripts\Gun.cs(13,19): warning CS0414: The field 'Gun._currentTime' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.10 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Monday, April 17, 2017 9:40:41 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.3.30
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: C:\Users\rick\Documents\New Unity Project
-Target profile directory: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 7.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-e07c9b5f6cf11724a842ebbfcdb89bce 
-Exit code: 0
-Elapsed time: 1.99 sec
+Elapsed time: 2.34 sec
 
 - Compiler output (0 lines):
 
@@ -54,137 +23,13 @@ Elapsed time: 1.99 sec
 - PDB to MDB conversion --------------------------------------
 
 Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
+Arguments: Temp\Assembly-CSharp.dll
 Exit code: 0
 Elapsed time: 0.09 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                      Monday, April 17, 2017 9:41:37 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.3.30
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\rick\Documents\New Unity Project
-Target profile directory: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 7.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-6317e9cdf7b3bdd47b70613098e48b10 
-Exit code: 0
-Elapsed time: 2.45 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Scripts\Gun.cs(13,19): warning CS0414: The field 'Gun._currentTime' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.10 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Monday, April 17, 2017 9:43:15 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.3.30
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\rick\Documents\New Unity Project
-Target profile directory: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 7.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-a4ddfe639967a604dba1178f4bf10705 
-Exit code: 0
-Elapsed time: 2.43 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Scripts\Gun.cs(13,19): warning CS0414: The field 'Gun._currentTime' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.10 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Monday, April 17, 2017 9:43:40 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.3.30
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\rick\Documents\New Unity Project
-Target profile directory: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 7.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-fcfea5375abc29d4d83793f83452d4ce 
-Exit code: 0
-Elapsed time: 2.45 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Scripts\Gun.cs(12,19): warning CS0414: The field 'Gun._currentTime' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.10 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Monday, April 17, 2017 9:45:56 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.3.30
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\rick\Documents\New Unity Project
-Target profile directory: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 7.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-bd1cce63a8cc74c4eb0cbf1c886c5899 
-Exit code: 0
-Elapsed time: 2.42 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Scripts\Gun.cs(12,19): warning CS0414: The field 'Gun._currentTime' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.10 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Monday, April 17, 2017 9:45:59 PM                       *
+*                    Wednesday, April 26, 2017 10:54:02 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 2.0.3.30
 Platform: Windows
@@ -197,9 +42,9 @@ Compiler: Microsoft C# 7.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-441a5614add0e3248962b2dee6b5a530 
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-bf9dde983a58e9743bcbca2c6a28ccdb 
 Exit code: 0
-Elapsed time: 1.99 sec
+Elapsed time: 1.92 sec
 
 - Compiler output (0 lines):
 
@@ -214,7 +59,7 @@ Elapsed time: 0.08 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                      Monday, April 17, 2017 9:46:02 PM                       *
+*                    Wednesday, April 26, 2017 10:54:45 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 2.0.3.30
 Platform: Windows
@@ -227,86 +72,24 @@ Compiler: Microsoft C# 7.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-a67e7f59cddd792418dd88c7fac9e6fe 
-********************************************************************************
-*                      Monday, April 17, 2017 9:46:05 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.3.30
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\rick\Documents\New Unity Project
-Target profile directory: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 7.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-2e819045ae6a4d149b7866be93a6efd2 
-********************************************************************************
-*                      Monday, April 17, 2017 9:46:05 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.3.30
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\rick\Documents\New Unity Project
-Target profile directory: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 7.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-e896f5c7ea05df349b4a3312a5e49e09 
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-e28daf389b0fc2a4d819577bdefa8830 
 Exit code: 0
-Elapsed time: 2.45 sec
+Elapsed time: 2.30 sec
 
 - Compiler output (0 lines):
 
-- Compiler errors (1 line):
-0: Assets\Scripts\Gun.cs(12,19): warning CS0414: The field 'Gun._currentTime' is assigned but its value is never used
+- Compiler errors (0 lines):
 
 - PDB to MDB conversion --------------------------------------
 
 Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp.dll
 Exit code: 0
-Elapsed time: 0.10 sec
+Elapsed time: 0.11 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                      Monday, April 17, 2017 9:46:08 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.3.30
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\rick\Documents\New Unity Project
-Target profile directory: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 7.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-91a562ff6c87cd941831d104200469ae 
-Exit code: 0
-Elapsed time: 2.41 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Scripts\Gun.cs(12,19): warning CS0414: The field 'Gun._currentTime' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.09 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Monday, April 17, 2017 9:46:11 PM                       *
+*                    Wednesday, April 26, 2017 10:54:48 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 2.0.3.30
 Platform: Windows
@@ -319,9 +102,129 @@ Compiler: Microsoft C# 7.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-e03e2c8a9fe8cc1499c0a7a321821155 
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-e3d3dd5d050a87a4980f66ccf3b7b971 
 Exit code: 0
-Elapsed time: 1.96 sec
+Elapsed time: 1.91 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                    Wednesday, April 26, 2017 10:54:56 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.0.3.30
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\rick\Documents\New Unity Project
+Target profile directory: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 7.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-ca28621cfe9e50a4da3411982610426a 
+Exit code: 0
+Elapsed time: 2.30 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.10 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                    Wednesday, April 26, 2017 10:54:59 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.0.3.30
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\rick\Documents\New Unity Project
+Target profile directory: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 7.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-aff2da489839b934ea69596f624fbb99 
+Exit code: 0
+Elapsed time: 1.91 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                    Wednesday, April 26, 2017 10:58:21 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.0.3.30
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\rick\Documents\New Unity Project
+Target profile directory: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 7.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-48258072c35a12d439deb71ee593fefa 
+Exit code: 0
+Elapsed time: 2.30 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.10 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                    Wednesday, April 26, 2017 10:58:24 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.0.3.30
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\rick\Documents\New Unity Project
+Target profile directory: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 7.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\rick\Documents\New Unity Project\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll" -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll" @Temp/UnityTempFile-6633a182966a5f749a0d4149f16f68db 
+Exit code: 0
+Elapsed time: 1.90 sec
 
 - Compiler output (0 lines):
 
